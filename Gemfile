@@ -39,6 +39,8 @@ gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
 # gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express', branch: '3-0-stable'
 gem 'spree_braintree_vzero', github: 'spree-contrib/spree_braintree_vzero'
+gem 'sprockets-helpers', '~> 1.2.1'
+gem 'vinsol_spree_themes'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
