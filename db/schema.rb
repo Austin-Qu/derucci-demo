@@ -1053,7 +1053,6 @@ ActiveRecord::Schema.define(version: 20170829015123) do
     t.boolean "active", default: true
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "engine", default: 0, null: false
     t.index ["active"], name: "index_spree_trackers_on_active"
   end
 
