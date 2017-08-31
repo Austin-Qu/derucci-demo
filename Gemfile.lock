@@ -10,14 +10,6 @@ GIT
       spree_frontend (>= 3.1.0, < 4.0)
       whenever
 
-GIT
-  remote: https://github.com/spree-contrib/spree_static_content.git
-  revision: cdb44132e8ae4e1638e920ec1199d6dc99c0cb5e
-  specs:
-    spree_static_content (3.3.0)
-      spree_core (>= 3.1.0, < 4.0)
-      spree_extension
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -388,7 +380,6 @@ DEPENDENCIES
   spree_auth_devise (~> 3.3)
   spree_braintree_vzero!
   spree_gateway (~> 3.3)
-  spree_static_content!
   spring
   spring-watcher-listen (~> 2.0.0)
   sprockets-helpers (~> 1.2.1)
