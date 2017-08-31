@@ -1,0 +1,19 @@
+
+<% @body_id = 'home-page' %>
+<div class="row">
+  <div class="col-md-12 col-sm-12 hotspot-wrapper">
+    <%= image_tag 'bag-1050608_1920.jpg', alt: '', class: 'img-responsive' %>
+    <div class="hotspot-text">
+        <h1>Handbag</h1>
+        <p>Get through the rigors of school and travel in style</p>
+        <a href="/t/brands/bags" class="btn"> Shop Now</a>
+    </div>
+  </div>
+</div>
+
+<div data-hook="homepage_products" class="container" >
+  <% cache(cache_key_for_products) do %>
+    <%= render partial: 'spree/shared/products', locals: { products: @products } %>
+  <% end %>
+</div>
+

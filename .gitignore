@@ -15,7 +15,3 @@
 
 # Ignore Byebug command history file.
 .byebug_history
-
-/public/vinsol_spree_themes
-/public/assets
-/public/system
